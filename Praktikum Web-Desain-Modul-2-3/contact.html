@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Hubungi Kami - Latihan External CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- TODO 1: Hubungkan file ini dengan stylesheet eksternal 'style.css' menggunakan tag <link> (Modul 3.3.5) -->
+    <__ rel="stylesheet" __="style.css">
+</head>
+<body>
+    <main id="main-wrapper">
+        <h1>Form Kontak</h1>
+        <p>Halaman ini menggunakan <strong>External CSS</strong>. Semua aturan tampilan dipisah ke file <code>style.css</code> yang Anda kerjakan.</p>
+
+        <!-- TODO 2: Tambahkan atribut class="contact-form" agar sesuai dengan selector di style.css -->
+        <form __="">
+            <label>Nama Lengkap:</label>
+            <input type="text" name="nama" placeholder="Masukkan nama Anda">
+
+            <label>Alamat Email:</label>
+            <input type="email" name="email" placeholder="contoh@email.com">
+
+            <label>Pesan:</label>
+            <textarea name="pesan" rows="4" placeholder="Tuliskan pesan Anda di sini..."></textarea>
+
+            <!-- TODO 3: Tambahkan inline style pada tombol agar background-color: #27ae60 dan color: white -->
+            <input type="submit" value="Kirim Pesan" __="" style="width: 100%; padding: 12px; border: none; border-radius: 6px; cursor: pointer; font-weight: 600;">
+        </form>
+
+        <nav style="margin-top: 30px; text-align: center;">
+            Kembali ke: <a href="index.html" style="color: #3498db; text-decoration: none; font-weight: 600;">Beranda</a>
+        </nav>
+
+        <p class="footer-note">© 2026 Website Latihan Mahasiswa | Modul 2 dan 3 Praktikum</p>
+    </main>
+</body>
+</html>

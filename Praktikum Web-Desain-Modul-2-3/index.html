@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Latihan Dasar - Modul 2 & 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- BAGIAN INTERNAL STYLE SHEET -->
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --bg-color: #f8f9fa;
+        }
+
+        /* TODO 2: Lengkapi properti CSS agar background halaman berwarna #f4f4f4 dan font menggunakan 'Inter' atau Arial */
+        body {
+            /* property: value; */
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* TODO 3: Perbaiki selector di bawah ini. Berdasarkan Modul 3.3.4, class harus diawali dengan titik (.) */
+        .container {
+            width: 90%;
+            max-width: 600px;
+            padding: 40px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            border: 1px solid #dee2e6;
+        }
+
+        h1 { 
+            color: var(--secondary-color); 
+            text-align: center; 
+            margin-top: 0;
+            font-weight: 700;
+        }
+
+        /* TODO 4: Tambahkan aturan agar semua tag <p> memiliki ukuran font 16px dan jarak antar baris (line-height) 1.6 */
+        p {
+            /* property: value; */
+        }
+
+        ul {
+            background: #f1f7ff;
+            padding: 20px 40px;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        nav {
+            margin-top: 30px;
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+    <main class="container">
+        <!-- TODO 5: Lengkapi tag heading untuk judul utama (Gunakan <h1> sesuai Modul) -->
+        <h1 >Selamat Datang di Website Latihan</h1>
+
+        <p>Halaman ini menggunakan <strong>Internal CSS</strong>. Kode CSS ditulis langsung di dalam elemen <code>&lt;head&gt;</code> menggunakan tag <code>&lt;style&gt;</code>.</p>
+
+        <h3>Mata Kuliah:</h3>
+        <!-- TODO 6: Buat Unordered List berisi 3 mata kuliah: Matematika, Fisika Dasar, Informatika -->
+        <ul>
+            <!-- Lengkapi dengan tag <li> -->
+        </ul>
+
+        <nav>
+            Lanjutkan latihan: 
+            <a href="about.html">Tentang Kami</a> | 
+            <a href="contact.html">Kontak</a>
+        </nav>
+    </main>
+</html>
