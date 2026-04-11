@@ -1,0 +1,78 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7f6;
+    color: #333;
+    transition: background-color 0.5s;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #2c3e50;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #34495e;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+ul {
+    background-color: #ecf0f1;
+    padding: 15px 15px 15px 35px;
+    border-radius: 5px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+#profil-user {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #e8f4f8;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+}
+
+.hidden {
+    display: none;
+}

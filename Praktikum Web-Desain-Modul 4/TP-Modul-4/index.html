@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pendahuluan Modul 4 - D3-TT-01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tugas Pendahuluan Modul 4: Pengenalan JavaScript</h1>
+        <p>Kelas: D3-TT-01 | Ikuti instruksi pada setiap latihan untuk mempelajari dasar-dasar JavaScript untuk Website (Inline, Internal, dan Eksternal).</p>
+    </header>
+
+    <main>
+        <!-- LATIHAN 1: INLINE JAVASCRIPT -->
+        <section class="card" id="latihan-1">
+            <h2>Latihan 1: Inline JavaScript (Interaksi Klik)</h2>
+            <p><strong>Instruksi:</strong> JavaScript paling mudah digunakan untuk membuat tombol merespons klik. Tambahkan atribut <code>onclick="..."</code> langsung pada tag <code>&lt;button&gt;</code> di bawah ini agar saat diklik, memunculkan popup <i>alert</i> bertuliskan pesan bebas (contoh: "Halo D3-TT-01!").</p>
+            
+            <!-- TODO LATIHAN 1: Sisipkan atribut onclick di dalam tag button berikut -->
+            <button id="btn-inline">Klik Saya (Inline JS)</button>
+        </section>
+
+        <!-- LATIHAN 2: INTERNAL JAVASCRIPT -->
+        <section class="card" id="latihan-2">
+            <h2>Latihan 2: Internal JavaScript (Manipulasi DOM Dasar)</h2>
+            <p><strong>Instruksi:</strong> JavaScript dapat mengambil elemen HTML dan mengubah kontennya secara instan (DOM Manipulation):</p>
+            <ol>
+                <li>Buat tag <code>&lt;script&gt;</code> tepat di bawah teks paragraf ini (masih di dalam file HTML).</li>
+                <li>Gunakan <code>document.getElementById("teks-ubah")</code> untuk menyimpan elemen ke dalam variabel.</li>
+                <li>Ubah tulisannya menggunakan properti <code>.textContent = "Teks berhasil diubah oleh JS!"</code></li>
+                <li>(Opsional) Ubah juga warnanya dengan <code>.style.color = "blue"</code></li>
+            </ol>
+            
+            <h3 id="teks-ubah">Saya adalah teks asli, tolong ubah saya!</h3>
+
+            <!-- TODO LATIHAN 2: Buat tag <script> di bawah baris ini untuk menulis Internal JS -->
+            
+        </section>
+
+        <!-- LATIHAN 3: EKSTERNAL JAVASCRIPT -->
+        <section class="card" id="latihan-3">
+            <h2>Latihan 3: Eksternal JavaScript (Membuat Aplikasi "Sapaan")</h2>
+            <p><strong>Instruksi:</strong> Praktik terbaik penulisan JavaScript adalah dipisah di file bereksistensi <code>.js</code>.</p>
+            <ol>
+                <li>Panggil file <code>script.js</code> dengan menyisipkan tag penghubung <code>&lt;script src="..."&gt;</code> di baris paling bawah dari file ini (sebelum tutup body).</li>
+                <li>Buka file <code>script.js</code> lalu ikuti instruksi yang ada di sana untuk membuat tombol penghasil pesan selamat datang berdasarkan nama yang diketik.</li>
+            </ol>
+            
+            <div style="margin-top: 15px;">
+                <input type="text" id="input-nama" placeholder="Masukkan nama Anda..." style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                <button id="btn-sapa">Sapa Saya!</button>
+            </div>
+            
+            <div id="kotak-hasil" class="hidden" style="margin-top: 15px; padding: 15px; background-color: #d4edda; color: #155724; border-radius: 5px;">
+                <!-- Pesan sapaan akan muncul di dalam <span> di bawah ini -->
+                <strong>Hasil:</strong> <span id="output-sapa">-</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- TODO LATIHAN 3.1: Panggil file script.js menggunakan Eksternal JS (tag script src) di baris bawah ini -->
+    
+</body>
+</html>
