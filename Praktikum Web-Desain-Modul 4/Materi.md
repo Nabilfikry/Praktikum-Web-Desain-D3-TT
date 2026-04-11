@@ -17,6 +17,7 @@ Setelah menyelesaikan modul ini, mahasiswa mampu:
 
 ---
 
+
 # BAB 1 — Apa itu JavaScript?
 
 Setelah Anda memahami HTML (struktur) dan CSS (tampilan), langkah berikutnya adalah membuat website menjadi **hidup dan interaktif**. Di sinilah JavaScript berperan.
@@ -56,6 +57,7 @@ JavaScript tidak hanya untuk browser. Saat ini JavaScript juga digunakan di:
 
 ---
 
+
 # BAB 2 — Bagaimana Cara Kerja JavaScript?
 
 JavaScript berjalan di **browser pengguna (client-side)**. Setiap browser modern memiliki **JavaScript Engine** yang bertugas membaca dan mengeksekusi kode JavaScript:
@@ -94,6 +96,7 @@ JavaScript dapat:
 5. **Menyimpan data lokal** — menggunakan LocalStorage, SessionStorage, atau Cookie.
 
 ---
+
 
 # BAB 3 — Cara Menambahkan JavaScript ke HTML
 
@@ -151,6 +154,7 @@ project/
 
 ---
 
+
 # BAB 4 — Output Dasar (Console & Alert)
 
 Untuk melihat hasil kode JavaScript dan melakukan debugging, ada beberapa cara menampilkan output:
@@ -191,6 +195,7 @@ console.table([1, 2, 3]);       // 📊 Menampilkan data dalam tabel
 ```
 
 ---
+
 
 # BAB 5 — Sintaks Dasar JavaScript
 
@@ -347,6 +352,7 @@ if (x > 10) {
 > 💡 **Tips:** Gunakan tools seperti **Prettier** (extension VS Code) untuk otomatis merapikan kode sesuai standar industri.
 
 ---
+
 
 # BAB 6 — Variabel & Tipe Data
 
@@ -517,6 +523,7 @@ null === undefined // false ✅
 
 ---
 
+
 # BAB 7 — Operator
 
 Operator adalah simbol yang digunakan untuk melakukan **operasi** pada nilai/variabel. JavaScript memiliki berbagai jenis operator.
@@ -638,6 +645,7 @@ if (nilai >= 70) {
 ```
 
 ---
+
 
 # BAB 8 — Struktur Kontrol
 
@@ -798,6 +806,7 @@ console.log(total); // 15
 
 ---
 
+
 # BAB 9 — Fungsi (Function)
 
 Fungsi adalah **blok kode yang dapat digunakan ulang** (reusable). Fungsi membantu memecah program menjadi bagian-bagian kecil yang lebih mudah dikelola dan di-debug.
@@ -951,6 +960,7 @@ console.log(globalVar);      // ✅ Bisa akses
 > 💡 **Prinsip:** Variabel sebaiknya dideklarasikan di scope **sekecil mungkin** untuk menghindari konflik nama dan bug yang sulit dilacak.
 
 ---
+
 
 # BAB 10 — DOM Manipulation
 
@@ -1114,6 +1124,7 @@ tombol.addEventListener("click", function(event) {
 
 ---
 
+
 # BAB 11 — Asynchronous JavaScript
 
 Secara default, JavaScript menjalankan kode secara **synchronous** — satu baris per satu baris, berurutan. Namun, beberapa operasi membutuhkan waktu (mengambil data dari server, membaca file, timer), dan kita tidak ingin **memblokir** eksekusi kode lainnya. Di sinilah **asynchronous programming** berperan.
@@ -1244,6 +1255,7 @@ console.log(objek.nama); // "Budi"
 
 ---
 
+
 # BAB 12 — Storage & Utility
 
 ---
@@ -1325,6 +1337,7 @@ console.timeEnd("proses"); // Output: proses: 12.345ms
 ```
 
 ---
+
 
 # 🧪 BAB 13 — Studi Kasus: Quote Generator
 
