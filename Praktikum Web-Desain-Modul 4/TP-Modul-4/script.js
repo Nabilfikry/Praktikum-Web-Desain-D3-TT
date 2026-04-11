@@ -8,34 +8,59 @@
 console.log("File script.js (Eksternal) berhasil dihubungkan!");
 
 // ==========================================
-// LATIHAN 3: Eksternal JavaScript (Aplikasi Sapaan Sederhana)
+// LATIHAN 3: Eksternal JavaScript (Fungsi & Percabangan)
 // ==========================================
-// Instruksi:
-// 1. Pastikan file "script.js" ini sudah dipanggilpada file "index.html" (di bagian paling bawah, section 3).
-// 2. Kita telah mengambil tag HTML (Input, Tombol, dan Tempat Hasil) ke dalam variabel di bawah ini.
-// 3. Tugas Anda: Tambahkan event listener "click" pada variabel `btnSapa`.
-// 4. Di dalam fungsi event listener tersebut, buat variabel baru berisi nilai ketikan dari kotak input. Gunakan: inputNama.value
-// 5. Ubah teks dari variabel `outputSapa` dengan menggabungkan kata sapaan dan nama yang diinputkan. (Contoh: "Selamat Datang, " + nama)
-// 6. Tampilkan kotak hasil dengan menghapus class "hidden" dari cetak hasil (kotakHasil.classList.remove("hidden"))
 
-// Mengambil elemen HTML dari ID-nya
-const inputNama = document.getElementById("input-nama");
-const btnSapa = document.getElementById("btn-sapa");
+// Variabel untuk mengambil elemen HTML
+const inputNilai = document.getElementById("input-nilai");
+const btnCek = document.getElementById("btn-cek");
 const kotakHasil = document.getElementById("kotak-hasil");
-const outputSapa = document.getElementById("output-sapa");
+const outputHasil = document.getElementById("output-hasil");
 
-if (btnSapa) {
-    // TODO: Buat event listener "click" pada btnSapa di bawah ini
-    btnSapa.addEventListener("click", function() {
-        console.log("Tombol sapa ditekan!");
+// -------------------------------------------------------------
+// TODO 1: Buat FUNGSI bernama "cekStatusUjian" (Menerima parameter 'nilai')
+// -------------------------------------------------------------
+// Fokus Latihan: FUNGSI (Function) & PERCABANGAN (If-Else)
+// Instruksi:
+// a. Gunakan percabangan if-else di dalam fungsi ini.
+// b. Jika nilai >= 70, kembalikan (return) teks "LULUS!".
+// c. Jika nilai < 70, kembalikan (return) teks "REMEDIAL!".
+
+function cekStatusUjian(nilai) {
+    // Tulis logika percabangan if-else di sini
+    
+}
+
+
+// -------------------------------------------------------------
+// TODO 2: Event Listener Tombol Saat Diklik
+// -------------------------------------------------------------
+if (btnCek) {
+    btnCek.addEventListener("click", function() {
+        console.log("Tombol Cek Kelulusan ditekan!");
         
-        // a. Ambil teks yang diketik pengguna
+        // 1. Ambil angka yang diketik pada kotak input (dan ubah jadi tipe data Number)
+        // const nilaiDiinput = Number(inputNilai.value);
         
+        // 2. Panggil fungsi yang telah kamu buat di atas dengan memasukkan variabel 'nilaiDiinput'
+        // const status = cekStatusUjian(nilaiDiinput);
         
-        // b. Masukkan teks gabungan ke elemen hasil (outputSapa.textContent = ...)
+        // 3. Tampilkan teks hasilnya pada elemen output
+        // outputHasil.textContent = status;
         
+        // 4. Memunculkan kotak background agar bisa dilihat (Hapus saja tanda // di blok bawah untuk melihat efek kotaknya)
         
-        // c. Memunculkan kotak background hijau
-        // kotakHasil.classList.remove("hidden");
+        /* tanda /* digunakan untuk membuat komentar */
+        /* maka hilangkan tanda /* dan di depan dan belakang jika ingin mengaktifkan kode di bawah */
+
+        /*
+        kotakHasil.classList.remove("hidden");
+        if (status === "LULUS!") {
+            kotakHasil.style.backgroundColor = "#28a745"; // Hijau
+        } else {
+            kotakHasil.style.backgroundColor = "#dc3545"; // Merah
+        }
+        */
+        
     });
 }
