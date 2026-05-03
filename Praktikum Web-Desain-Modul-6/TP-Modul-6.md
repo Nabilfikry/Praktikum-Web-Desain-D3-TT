@@ -17,7 +17,8 @@ Membuat database MySQL menggunakan query SQL melalui **phpMyAdmin** dengan mengg
 3. Pastikan kedua modul berstatus hijau (Running).
 4. Untuk Laragon, cukup jalankan **Start All**.
 5. jika XAMPP error atau tidak bisa, download dan install Laragon [disini](https://drive.google.com/drive/folders/1i5I1iR-fPjx1t5RbrRjh1JGmTO1cafmd?usp=sharing).
-> **Screenshot:** tampilkan XAMPP / Laragon dalam keadaan Runing
+> 📸 **Screenshot:** tampilkan XAMPP / Laragon dalam keadaan Runing
+
 
 ### 2. Membuka phpMyAdmin
 1. Buka browser.
