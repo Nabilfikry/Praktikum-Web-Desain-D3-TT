@@ -188,4 +188,4 @@ WHERE some_column = some_value
 ```
 
 ## Credits
-- Pengembang modul: [Nabil Fikry Khaidar](https://github.com/Nabilfikry )
+- Pengembang modul: [Nabil Fikry Khaidar](https://github.com/Nabilfikry)
