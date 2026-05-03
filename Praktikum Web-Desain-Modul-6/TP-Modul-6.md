@@ -241,7 +241,10 @@ WHERE nama = 'Budi Santoso';
 1. Kerjakan semua langkah (Langkah 1 - 8) secara berurutan.
 2. Setiap langkah harus disertai **screenshot** hasil eksekusi query di phpMyAdmin.
 3. Kumpulkan screenshot dalam **Lembar Jawaban yang disediakan** ([TP 6 Web-Desain - 4 NIM Terakhir.docx](https://docs.google.com/document/d/1zWVAfPv_rbSZ48kS-I6sNfrFTsWMeymuP_maKU-e2Ls/edit?usp=sharing)).
-4. **Jangan hapus database `toko_online_4 NIM Terakhir`** setelah selesai mengerjakan. Database ini akan digunakan pada saat **praktikum di hari H** untuk ditampilkan ke halaman web menggunakan PHP dan HTML.
+4. Screenshot harus full screen dan menampilkan task bar (bagian bawah termasuk tanggal dan waktu).
+5. Kumpulkan file dalam bentuk PDF ke GCR yang disediakan Asprak.
+6. **Jangan hapus database `toko_online_4 NIM Terakhir`** setelah selesai mengerjakan. Database ini akan digunakan pada saat **praktikum di hari H** untuk ditampilkan ke halaman web menggunakan PHP dan HTML.
+7. Berikan komentar (//) pada query yang tidak dimengerti.
 
 ---
 
