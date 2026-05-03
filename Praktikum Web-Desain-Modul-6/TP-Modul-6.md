@@ -1,20 +1,21 @@
 # TUGAS PENDAHULUAN — MODUL 6: DATABASE
 
 ## Tujuan Tugas
-Membuat database MySQL menggunakan query SQL melalui **phpMyAdmin** pada XAMPP. Database yang dibuat pada tugas ini akan digunakan kembali untuk pengembangan web (PHP + HTML) pada saat praktikum di hari H.
+Membuat database MySQL menggunakan query SQL melalui **phpMyAdmin** dengan menggunakan XAMPP / Laragon sebagai localhost nya. Database yang dibuat pada tugas ini akan digunakan kembali untuk pengembangan web (PHP + HTML) pada saat praktikum di hari H.
 
 ## Alat & Bahan
-1. Laptop dengan **XAMPP** terinstal
-2. Browser (Chrome / Firefox) untuk mengakses **phpMyAdmin**
+1. Laptop dengan **XAMPP / Laragon** terinstal
+2. Browser untuk mengakses **phpMyAdmin**
 
 ---
 
 ## Panduan Persiapan
 
-### 1. Menjalankan XAMPP
-1. Buka aplikasi **XAMPP Control Panel**.
-2. Klik **Start** pada modul **Apache** dan **MySQL**.
+### 1. Menjalankan XAMPP / Laragon
+1. Buka aplikasi **XAMPP / Laragon Control Panel**.
+2. Klik **Start** pada modul **Apache** dan **MySQL** (khusus XAMPP).
 3. Pastikan kedua modul berstatus hijau (Running).
+4. Untuk Laragon, cukup jalankan **Start All**
 
 ### 2. Membuka phpMyAdmin
 1. Buka browser.
@@ -54,16 +55,16 @@ Database ini terdiri dari **3 tabel** yang saling berelasi:
 
 ### Langkah 1 — Membuat Database
 
-Buat sebuah database baru bernama `toko_online`.
+Buat sebuah database baru bernama `toko_online_4 NIM Terakhir`.
 
 ```sql
-CREATE DATABASE toko_online;
+CREATE DATABASE toko_online_4 NIM Terakhir;
 ```
 
 Setelah berhasil, pilih/gunakan database tersebut:
 
 ```sql
-USE toko_online;
+USE toko_online_4 NIM Terakhir;
 ```
 
 > 📸 **Screenshot:** Tampilkan hasil pembuatan database pada phpMyAdmin.
