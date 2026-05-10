@@ -28,7 +28,7 @@ Setelah mengikuti praktikum ini, praktikan diharapkan dapat:
 **Visualisasi data** adalah cara menyajikan data dalam bentuk visual (grafik, diagram, chart) agar informasi lebih mudah dipahami dibandingkan membaca angka-angka mentah dalam tabel.
 
 **Analogi sederhana:**
-Bayangkan kamu punya data penjualan 12 bulan dalam sebuah tabel. Membaca 12 baris angka tentu membutuhkan waktu untuk memahami tren. Tapi kalau data yang sama ditampilkan dalam bentuk **grafik garis**, kamu bisa langsung melihat bulan mana yang penjualannya naik atau turun — hanya dalam hitungan detik.
+Bayangkan kamu punya data penjualan 12 bulan dalam sebuah tabel. Membaca 12 baris angka tentu membutuhkan waktu untuk memahami tren. Tapi kalau data yang sama ditampilkan dalam bentuk **grafik garis**, kamu bisa langsung melihat bulan mana yang penjualannya naik atau turun - hanya dalam hitungan detik.
 
 **Mengapa visualisasi data penting?**
 - 📊 Mempermudah pemahaman data yang kompleks
@@ -112,10 +112,10 @@ new Chart(document.getElementById('myChart'), {
 **Bootstrap** adalah **framework CSS** open-source yang menyediakan komponen siap pakai (tombol, card, grid, navbar, dll) untuk mempercantik tampilan website tanpa harus menulis CSS dari nol.
 
 **Kenapa menggunakan Bootstrap?**
-- ✅ **Responsif otomatis** — layout menyesuaikan ukuran layar (desktop, tablet, HP)
-- ✅ **Cepat & efisien** — tinggal pakai class, tidak perlu buat CSS sendiri
-- ✅ **Konsisten** — tampilan seragam di semua halaman
-- ✅ **Dokumentasi lengkap** — [getbootstrap.com](https://getbootstrap.com/docs/)
+- ✅ **Responsif otomatis** - layout menyesuaikan ukuran layar (desktop, tablet, HP)
+- ✅ **Cepat & efisien** - tinggal pakai class, tidak perlu buat CSS sendiri
+- ✅ **Konsisten** - tampilan seragam di semua halaman
+- ✅ **Dokumentasi lengkap** - [getbootstrap.com](https://getbootstrap.com/docs/)
 
 **Cara menggunakan Bootstrap:**
 Tambahkan link CSS Bootstrap di dalam `<head>`:
@@ -174,7 +174,7 @@ JavaScript (Chart.js) menerima data
 Grafik ditampilkan di browser
 ```
 
-**Kode penting — Cara passing data dari PHP ke JavaScript:**
+**Kode penting - Cara passing data dari PHP ke JavaScript:**
 
 ```php
 <?php
@@ -266,7 +266,7 @@ $colors = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grafik Data Produk — Modul 7</title>
+    <title>Grafik Data Produk - Modul 7</title>
 
     <!-- Bootstrap 5 CSS (framework CSS untuk layout responsif) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -287,7 +287,7 @@ $colors = [
         <div class="col-lg-6 col-md-8">
             <div class="card shadow-sm">
                 <div class="card-body">
-                    <h5 class="card-title text-center mb-4">Pie Chart — Harga Produk</h5>
+                    <h5 class="card-title text-center mb-4">Pie Chart - Harga Produk</h5>
                     <canvas id="chartPie"></canvas>
                 </div>
             </div>
@@ -338,20 +338,20 @@ Buka browser dan akses: [http://localhost/modul7/index.php](http://localhost/mod
 
 ## 7.5 Penjelasan Kode Secara Detail
 
-### Bagian 1 — PHP (Server-Side)
+### Bagian 1 - PHP (Server-Side)
 Kode PHP berjalan di **server** (XAMPP). Tugasnya:
-1. **Koneksi** ke database MySQL menggunakan `mysqli_connect()` — ini sama persis seperti yang dipelajari di Modul 6.
+1. **Koneksi** ke database MySQL menggunakan `mysqli_connect()` - ini sama persis seperti yang dipelajari di Modul 6.
 2. **Query** data produk menggunakan `SELECT`.
 3. **Memproses** hasil query menjadi dua array: `$labels` (nama produk) dan `$data` (harga).
 4. **Mengirim** data ke JavaScript menggunakan `json_encode()`.
 
-### Bagian 2 — HTML + Bootstrap (Struktur & Layout)
+### Bagian 2 - HTML + Bootstrap (Struktur & Layout)
 - `container` → wrapper responsif
 - `row` + `col-lg-6` → mengatur lebar konten (6 dari 12 kolom di layar besar)
 - `card` + `shadow-sm` → kotak konten dengan bayangan
 - `<canvas id="chartPie">` → tempat Chart.js me-render grafik
 
-### Bagian 3 — JavaScript + Chart.js (Client-Side)
+### Bagian 3 - JavaScript + Chart.js (Client-Side)
 - `<?= json_encode($labels) ?>` → PHP mencetak array sebagai JSON ke JavaScript
 - `new Chart(...)` → membuat instance grafik baru
 - `type: 'pie'` → jenis grafik Pie

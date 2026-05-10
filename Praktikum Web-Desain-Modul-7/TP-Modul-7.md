@@ -1,4 +1,4 @@
-# TUGAS PENDAHULUAN — MODUL 7: VISUALISASI DATA DATABASE DALAM BENTUK GRAFIK
+# TUGAS PENDAHULUAN - MODUL 7: VISUALISASI DATA DATABASE DALAM BENTUK GRAFIK
 
 ## Tujuan Tugas
 Membuat halaman web **PHP + Chart.js + Bootstrap** yang menampilkan data dari database `toko_online_XXXX` (yang sudah dibuat di Modul 6) dalam bentuk **grafik interaktif**. Tugas ini menjadi persiapan sebelum praktikum di hari H, di mana grafik akan dikembangkan lebih lanjut.
@@ -61,7 +61,7 @@ Kita akan membuat sebuah **halaman dashboard** sederhana yang menampilkan data p
 
 ---
 
-### Langkah 1 — Menambahkan Data Penjualan ke Database
+### Langkah 1 - Menambahkan Data Penjualan ke Database
 
 Sebelum membuat grafik, kita perlu menambahkan tabel baru untuk data penjualan. Buka **phpMyAdmin** → pilih database `toko_online_XXXX` → klik tab **SQL**, lalu jalankan query berikut:
 
@@ -98,7 +98,7 @@ INSERT INTO penjualan (id_produk, jumlah_terjual, tanggal_jual) VALUES
 (2, 12, '2025-04-10');
 ```
 
-#### 1c. Verifikasi data — Tampilkan data penjualan beserta nama produknya
+#### 1c. Verifikasi data - Tampilkan data penjualan beserta nama produknya
 
 ```sql
 SELECT penjualan.id_penjualan, produk.nama_produk, penjualan.jumlah_terjual, penjualan.tanggal_jual
@@ -110,7 +110,7 @@ JOIN produk ON penjualan.id_produk = produk.id_produk;
 
 ---
 
-### Langkah 2 — Membuat File `index.php` (Grafik Pie Chart)
+### Langkah 2 - Membuat File `index.php` (Grafik Pie Chart)
 
 Buat file `index.php` di dalam folder `C:\xampp\htdocs\modul7\`, lalu ketik kode berikut:
 
@@ -168,7 +168,7 @@ $colors = ['#f94144', '#f3722c', '#f9844a', '#f9c74f', '#90be6d', '#43aa8b', '#5
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Grafik Produk — Modul 7</title>
+    <title>Dashboard Grafik Produk - Modul 7</title>
 
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -196,7 +196,7 @@ $colors = ['#f94144', '#f3722c', '#f9844a', '#f9c74f', '#90be6d', '#43aa8b', '#5
 <div class="container py-5">
     <!-- Judul Dashboard -->
     <h2 class="text-center mb-2 dashboard-title">📊 Dashboard Grafik Produk</h2>
-    <p class="text-center text-white-50 mb-5">Data dari database toko_online — Modul 7</p>
+    <p class="text-center text-white-50 mb-5">Data dari database toko_online - Modul 7</p>
 
     <div class="row g-4">
 
@@ -204,7 +204,7 @@ $colors = ['#f94144', '#f3722c', '#f9844a', '#f9c74f', '#90be6d', '#43aa8b', '#5
         <div class="col-lg-6">
             <div class="card shadow">
                 <div class="card-body">
-                    <h5 class="card-title text-center mb-3">🥧 Pie Chart — Harga Produk</h5>
+                    <h5 class="card-title text-center mb-3">🥧 Pie Chart - Harga Produk</h5>
                     <canvas id="chartPie"></canvas>
                 </div>
             </div>
@@ -214,7 +214,7 @@ $colors = ['#f94144', '#f3722c', '#f9844a', '#f9c74f', '#90be6d', '#43aa8b', '#5
         <div class="col-lg-6">
             <div class="card shadow">
                 <div class="card-body">
-                    <h5 class="card-title text-center mb-3">📊 Bar Chart — Stok Produk</h5>
+                    <h5 class="card-title text-center mb-3">📊 Bar Chart - Stok Produk</h5>
                     <canvas id="chartBar"></canvas>
                 </div>
             </div>
@@ -224,7 +224,7 @@ $colors = ['#f94144', '#f3722c', '#f9844a', '#f9c74f', '#90be6d', '#43aa8b', '#5
         <div class="col-lg-6 mx-auto">
             <div class="card shadow">
                 <div class="card-body">
-                    <h5 class="card-title text-center mb-3">🍩 Doughnut Chart — Produk per Kategori</h5>
+                    <h5 class="card-title text-center mb-3">🍩 Doughnut Chart - Produk per Kategori</h5>
                     <canvas id="chartDoughnut"></canvas>
                 </div>
             </div>
@@ -328,7 +328,7 @@ Buka browser dan akses: **http://localhost/modul7/index.php**
 
 ---
 
-### Langkah 3 — Memahami Alur Data (PHP → JavaScript)
+### Langkah 3 - Memahami Alur Data (PHP → JavaScript)
 
 Jawab pertanyaan berikut berdasarkan kode di Langkah 2:
 
@@ -351,7 +351,7 @@ GROUP BY kategori.id_kategori, kategori.nama_kategori;
 
 ---
 
-### Langkah 4 — Menambahkan Grafik Line Chart (Tren Penjualan)
+### Langkah 4 - Menambahkan Grafik Line Chart (Tren Penjualan)
 
 Tambahkan grafik **Line Chart** baru ke halaman `index.php` yang menampilkan **total penjualan per produk** dari tabel `penjualan` yang sudah dibuat di Langkah 1.
 
@@ -379,7 +379,7 @@ $data_jual   = array_column($all_jual, 1);
 <div class="col-lg-6 mx-auto">
     <div class="card shadow">
         <div class="card-body">
-            <h5 class="card-title text-center mb-3">📈 Line Chart — Total Penjualan per Produk</h5>
+            <h5 class="card-title text-center mb-3">📈 Line Chart - Total Penjualan per Produk</h5>
             <canvas id="chartLine"></canvas>
         </div>
     </div>
@@ -425,7 +425,7 @@ new Chart(document.getElementById('chartLine'), {
 
 ---
 
-### Langkah 5 — Kustomisasi Tampilan
+### Langkah 5 - Kustomisasi Tampilan
 
 Lakukan **salah satu** modifikasi berikut pada halaman `index.php`:
 
