@@ -10,7 +10,11 @@ Setelah mengikuti praktikum ini, praktikan diharapkan dapat:
 ## 5.2 Alat & Bahan  
 1. Laptop  
 2. Software Visual Studio Code  
+<<<<<<< Updated upstream
 3. Software XAMPP / Laragon
+=======
+3. Software XAMPP  / Laragon
+>>>>>>> Stashed changes
 
 ## 5.3 Dasar Teori  
 
