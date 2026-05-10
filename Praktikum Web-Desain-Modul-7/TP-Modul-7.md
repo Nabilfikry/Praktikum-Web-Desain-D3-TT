@@ -447,7 +447,7 @@ Lakukan **salah satu** modifikasi berikut pada halaman `index.php`:
 4. Screenshot harus **full screen** dan menampilkan task bar (bagian bawah termasuk tanggal dan waktu).
 5. Kumpulkan file dalam bentuk **PDF** ke GCR yang disediakan Asprak.
 6. **Jangan hapus folder `modul7`** dan **database `toko_online_XXXX`** setelah selesai mengerjakan. File dan database ini akan digunakan pada saat **praktikum di hari H** untuk pengembangan lebih lanjut.
-7. Jawaban pertanyaan di **Langkah 3** ditulis di lembar jawaban.
+7. Buat dilembar jawaban berikut [Lembar Jawaban](https://docs.google.com/document/d/1EN3IzU-loPFUnPkddLV-VweYtwQpXC6ikgOj3_j8CfU/edit?usp=sharing)
 
 ---
 
