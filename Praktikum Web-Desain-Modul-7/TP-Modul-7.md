@@ -442,13 +442,11 @@ Lakukan **salah satu** modifikasi berikut pada halaman `index.php`:
 ## Ketentuan Pengumpulan
 
 1. Kerjakan semua langkah (**Langkah 1–5**) secara berurutan.
-2. Setiap langkah yang memerlukan screenshot harus disertai **screenshot** hasil (total **6 screenshot**).
-3. Kumpulkan screenshot dalam **Lembar Jawaban yang disediakan**.
+2. Setiap langkah yang memerlukan screenshot harus disertai **screenshot** hasil.
+3. Kumpulkan screenshot dalam **Lembar Jawaban yang disediakan** [(TP Web-Desain - 4 NIM Terakhir.docx)](https://docs.google.com/document/d/1EN3IzU-loPFUnPkddLV-VweYtwQpXC6ikgOj3_j8CfU/edit?usp=sharing)
 4. Screenshot harus **full screen** dan menampilkan task bar (bagian bawah termasuk tanggal dan waktu).
 5. Kumpulkan file dalam bentuk **PDF** ke GCR yang disediakan Asprak.
 6. **Jangan hapus folder `modul7`** dan **database `toko_online_XXXX`** setelah selesai mengerjakan. File dan database ini akan digunakan pada saat **praktikum di hari H** untuk pengembangan lebih lanjut.
-7. Buat dilembar jawaban berikut [Lembar Jawaban](https://docs.google.com/document/d/1EN3IzU-loPFUnPkddLV-VweYtwQpXC6ikgOj3_j8CfU/edit?usp=sharing)
-
 ---
 
 ## Ringkasan Konsep yang Dipraktikkan
@@ -474,7 +472,8 @@ Lakukan **salah satu** modifikasi berikut pada halaman `index.php`:
 
 | Modul | Konsep yang Digunakan Kembali |
 |-------|------------------------------|
-| Modul 2-3 (HTML & CSS) | Struktur HTML, styling dasar |
+| Modul 2 (HTML) | Struktur HTML |
+| Modul 3 (CSS) | styling dasar |
 | Modul 4 (JavaScript) | Variabel, fungsi, DOM, library eksternal |
 | Modul 5 (PHP) | Koneksi database, query, menampilkan data |
 | Modul 6 (Database) | Database `toko_online_XXXX`, tabel `produk`, `kategori`, relasi antar tabel |
