@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #667eea;
+    --color-primary-dark: #5568d3;
+    --color-success: #48bb78;
+    --color-success-dark: #38a169;
+    --color-warning: #ed8936;
+    --color-warning-dark: #dd6b20;
+    --color-text: #333;
+    --shadow-default: 0 10px 40px rgba(0, 0, 0, 0.3);
+    --transition: all 0.3s ease;
+    --border-radius: 8px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, var(--color-primary) 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: var(--shadow-default);
+    text-align: center;
+    max-width: 500px;
+}
+
+h1 {
+    color: var(--color-text);
+    margin-bottom: 30px;
+    font-size: 2em;
+    transition: var(--transition);
+}
+
+button {
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Button Variants */
+.btn-primary {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.btn-success {
+    background-color: var(--color-success);
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: var(--color-success-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(72, 187, 120, 0.4);
+}
+
+.btn-warning {
+    background-color: var(--color-warning);
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: var(--color-warning-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(237, 137, 54, 0.4);
+}

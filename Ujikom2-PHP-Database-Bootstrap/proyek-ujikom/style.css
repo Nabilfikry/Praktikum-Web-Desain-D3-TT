@@ -1,0 +1,41 @@
+/* ============================================================
+   UJIAN KOMPREHENSIF 2 — SOAL PRAKTIK
+   FILE: style.css
+   ============================================================
+   File ini SUDAH LENGKAP — tidak ada soal di sini.
+   File ini menyediakan styling tambahan di luar Bootstrap.
+   ============================================================ */
+
+/* Background halaman dengan gradient gelap */
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    min-height: 100vh;
+}
+
+/* Styling untuk judul dashboard */
+.dashboard-title {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Styling untuk teks identitas mahasiswa */
+.identitas {
+    color: #ccc;
+    font-size: 1.1rem;
+}
+
+.identitas span {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Menghilangkan border default card Bootstrap */
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+/* Styling untuk header tabel */
+.table thead {
+    font-size: 0.95rem;
+}
