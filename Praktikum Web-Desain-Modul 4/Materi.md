@@ -119,7 +119,7 @@ project/
 └── script.js
 ```
 
-### 🔗 Menghubungkan JS Eksternal ke HTML
+### � Menghubungkan JS Eksternal ke HTML
 
 ```html
 <!DOCTYPE html>
